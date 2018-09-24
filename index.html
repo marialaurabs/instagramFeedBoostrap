@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Fuente pacifico -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <!-- CSS -->
+     <link rel="stylesheet" href="css/style.css">
+
+    <title>Instagram</title>
+  </head>
+
+  <body>
+    
+    <header>
+      <!-- NavBar -->
+          <nav class="navbar navbar-light " style="background: #d3d3d3">
+            <a class="navbar-brand ml-5"><i class="fab fa-instagram mr-1"></i>Instagram</a>
+            <form class="form-inline">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-success m-1" data-toggle="modal" data-target="#exampleModal">
+              Create a new post
+              </button>
+  
+  <!-- Modal (pop Up) -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <textarea cols="60" rows="2" placeholder="" class="form-control"></textarea>
+        </div>
+          <div class="modal-body small">
+            <button class=" m-1"><i class="fas fa-camera"></i></button>
+            <button><i class="fas fa-map-marker-alt"></i></button>
+          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn" data-dismiss="modal" style="background: #d3d3d3 ">Cancel</button>
+          <button type="button" class="btn btn-success">Publish</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+      <!-- Menu desplegable a la izquierda -->
+               <div>
+                 <div class="dropdown dropleft">
+                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     <i class="fas fa-cog"></i>
+                   </button>
+                   <div class="dropdown-menu m-1" aria-labelledby="dropdownMenuButton">
+                     <a class="dropdown-item" href="#">Action</a>
+                     <a class="dropdown-item" href="#">Another action</a>
+                     <a class="dropdown-item" href="#">Something else here</a>
+                     <!-- Espaciado lineal -->
+                     <hr class="mt-1">
+                     <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+                   </div>
+                 </div>
+               </div>
+            </form>
+          </nav>
+        </div>
+        <!-- Final NavBar -->
+    </header>
+    <!-- Pildoras -->
+    <section>
+      <div>
+        <nav>
+          <div class="nav nav-tabs justify-content-center mr-2" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fas fa-th"></i></a>
+            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fas fa-square"></i></a>
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <!-- Primera pestaña -->
+            <!-- Contenido grid dividido en 3 partes-->
+            <div class="row">
+            <div class="col-sm m-1">
+              <img src="imagenes/cd7304f4786e302cc55da7e67f4b917b.jpg " alt="" class="img-fluid">
+            </div>
+            <div class="col-sm m-1">
+              <img src="imagenes/fecc3e103cbfead2db01ddf3759366e4.jpg" alt="" class="img-fluid">
+            </div> 
+            <div class="col-sm m-1">
+              <img src="imagenes/d055187d51e217cded9831b64eb3de33.jpg" alt="" class="img-fluid">
+            </div>   
+            </div>
+            <div class="row">
+            <div class="col-sm m-1">
+              <img src="imagenes/76cf8475430176d841aade38cefafd4a.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm m-1">
+              <img src="imagenes/05b9c42c9f7c64c8193ca6be9aeaf5a3.jpg" alt="" class="img-fluid">
+            </div> 
+            <div class="col-sm m-1">
+              <img src="imagenes/417035dd222c6f4c3aef940e12e4b24e.jpg" alt="" class="img-fluid">
+            </div>   
+            </div>
+            <div class="row">
+            <div class="col-sm m-1">
+              <img src="imagenes/0ba99b01c208be98e5f8266e9f0566d3.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm m-1">
+              <img src="imagenes/368bea5107654309405bbec5d4389544.jpg" alt="" class="img-fluid">
+            </div> 
+            <div class="col-sm m-1">
+              <img src="imagenes/aa15d5bb85bb88bb27636efe54f1dd5c.jpg" alt="" class="img-fluid">
+            </div>   
+            </div>
+          </div>
+          <!-- Segunda pestaña -->
+          <!-- Feed -->
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+          <section class="feed">
+            <!-- Bloque -->
+            <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+              <!-- Card -->
+              <div class="card justify-content-center mt-2 mb-2" style="width: 450px;">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                  <h3 class="float-left">La patilla</h3>
+                  <span class="float-right">20/9</span>
+                  </li>
+                  <li class="list-group-item">
+                  <img src="imagenes/dda17f1585c6771796001e62fb852db9.jpg" alt="" class="img-fluid mb-1">
+                  <strong>23 likes</strong>
+                  <p>No contiene grasa, sodio ni calorías, basta con ver ese atractivo color rojo para saber que contiene un alto nivel de antioxidantes, ideal para prevenir el envejecimiento y mantener en estado nuestros tejidos. <strong> #ComeFruta</strong></p>
+                  </li>
+                  <li class="list-group-item">
+                  <p><i class="far fa-heart m-2"></i>Comment... <i class="fas fa-ellipsis-v float-right m-2"></i></p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-4"></div>
+            </div>
+            <!-- Bloque -->
+            <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+              <!-- Card -->
+              <div class="card justify-content-center mt-2 mb-2" style="width: 450px;">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                  <h3 class="float-left">La piña</h3>
+                  <span class="float-right">20/9</span>
+                  </li>
+                  <li class="list-group-item">
+                  <img src="imagenes/a3a2e7526e3ac1147fdc77e87db71ebb.jpg" class="img-fluid mb-1">
+                  <strong>23 likes</strong>
+                  <p>La piña es una fuente rica en antioxidantes como la vitamina C, yodo, magnesio, fósforo y calcio que, además de reforzar las defensas, también tienen una acción positiva en la tiroides y las células nerviosas.<strong> #ComeFruta</strong></p>
+                  </li>
+                  <li class="list-group-item">
+                  <p><i class="far fa-heart m-2"></i>Comment... <i class="fas fa-ellipsis-v float-right m-2"></i></p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-4"></div>
+            </div>
+            <!-- Bloque -->
+            <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+              <!-- Card -->
+              <div class="card justify-content-center mt-2 mb-2" style="width: 450px;">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                  <h3 class="float-left">La banana</h3>
+                  <span class="float-right">20/9</span>
+                  </li>
+                  <li class="list-group-item">
+                  <img src="imagenes/2726ff0e2c0a9860c0fc5016319790fc.jpg" class="img-fluid mb-1">
+                  <strong>23 likes</strong>
+                  <p>El banano es una fruta que contiene altos niveles de potasio, sacarosa, fructosa y glucosa, nutrientes que al ser consumidos regularmente le proporcionan a nuestro cuerpo energía.<strong> #ComeFruta</strong></p>
+                  </li>
+                  <li class="list-group-item">
+                  <p><i class="far fa-heart m-2"></i>Comment... <i class="fas fa-ellipsis-v float-right m-2"></i></p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-4"></div>
+            </div>
+            <!-- Bloque -->
+            <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+              <!-- Card -->
+              <div class="card justify-content-center mt-2 mb-2" style="width: 450px;">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                  <h3 class="float-left">El kiwi</h3>
+                  <span class="float-right">20/9</span>
+                  </li>
+                  <li class="list-group-item">
+                  <img src="imagenes/a5611ccf036913ddc8eb2a6dc7a72874.jpg" class="img-fluid mb-1">
+                  <strong>23 likes</strong>
+                  <p>El kiwi es rico en fósforo (esencial para la mineralización del hueso), magnesio (regula la absorción y asimilación del calcio) y potasio (evitar la eliminación del calcio).<strong> #ComeFruta</strong></p>
+                  </li>
+                  <li class="list-group-item">
+                  <p><i class="far fa-heart m-2"></i>Comment... <i class="fas fa-ellipsis-v float-right m-2"></i></p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-4"></div>
+            </div>
+              
+                  </section>
+          </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
